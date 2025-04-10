@@ -1,0 +1,371 @@
+{
+    "documents": [
+        {
+            "id": "id__4873",
+            "sentiment": "mixed",
+            "confidenceScores": {
+                "positive": 0.47,
+                "neutral": 0.04,
+                "negative": 0.49
+            },
+            "sentences": [
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 0.95,
+                        "neutral": 0.05,
+                        "negative": 0.01
+                    },
+                    "offset": 0,
+                    "length": 154,
+                    "text": "[   \"fui mt bem atendido, a moça resolveu rapidinhu, show!\",    \"demorou bastant pra atende (uns 20min), mas dps foi tranquilo, conseguiram resolve sim\",\n",
+                    "targets": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 0.99,
+                                "negative": 0.01
+                            },
+                            "offset": 109,
+                            "length": 3,
+                            "text": "dps",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/0/assessments/0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 0.99,
+                                "negative": 0.01
+                            },
+                            "offset": 117,
+                            "length": 9,
+                            "text": "tranquilo",
+                            "isNegated": false
+                        }
+                    ]
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0.01,
+                        "neutral": 0.02,
+                        "negative": 0.98
+                    },
+                    "offset": 154,
+                    "length": 24,
+                    "text": "  \"péssimo atendimento. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.01,
+                        "neutral": 0.86,
+                        "negative": 0.13
+                    },
+                    "offset": 178,
+                    "length": 49,
+                    "text": "Fiquei esperando e dps desligaram na minha cara. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 0.96,
+                        "negative": 0.04
+                    },
+                    "offset": 227,
+                    "length": 26,
+                    "text": "NUNCA mais volto a liga\",\n",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0.33,
+                        "neutral": 0,
+                        "negative": 0.67
+                    },
+                    "offset": 253,
+                    "length": 56,
+                    "text": "  \"atendente foi super educada e resolveu minha duvida. ",
+                    "targets": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 257,
+                            "length": 10,
+                            "text": "\"atendente",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/4/assessments/0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 278,
+                            "length": 7,
+                            "text": "educada",
+                            "isNegated": false
+                        }
+                    ]
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 0.99,
+                        "negative": 0.01
+                    },
+                    "offset": 309,
+                    "length": 45,
+                    "text": "só acho q o tempo d espera podia ser menor\",\n",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0.01,
+                        "neutral": 0.09,
+                        "negative": 0.9
+                    },
+                    "offset": 354,
+                    "length": 57,
+                    "text": "  \"só enrolaro, falaram q ia retorna e até agora nada... ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0.02,
+                        "neutral": 0.15,
+                        "negative": 0.83
+                    },
+                    "offset": 411,
+                    "length": 13,
+                    "text": "complicado\",\n",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 0.96,
+                        "neutral": 0.04,
+                        "negative": 0
+                    },
+                    "offset": 424,
+                    "length": 78,
+                    "text": "  \"liguei e fui atendido na hora, atendimento mto top, parabens pra equipe!\",\n",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 0.95,
+                        "neutral": 0.04,
+                        "negative": 0.01
+                    },
+                    "offset": 502,
+                    "length": 71,
+                    "text": "  \"o atendimento foi educado mas num resolveram meu caso, entaum né... ",
+                    "targets": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 512,
+                            "length": 11,
+                            "text": "atendimento",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/9/assessments/0"
+                                }
+                            ]
+                        },
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 509,
+                            "length": 14,
+                            "text": "\"o atendimento",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/9/assessments/0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 528,
+                            "length": 7,
+                            "text": "educado",
+                            "isNegated": false
+                        }
+                    ]
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 1,
+                        "negative": 0
+                    },
+                    "offset": 573,
+                    "length": 14,
+                    "text": "meio a meio\",\n",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0.47,
+                        "neutral": 0.01,
+                        "negative": 0.52
+                    },
+                    "offset": 587,
+                    "length": 75,
+                    "text": "  \"me ajudaram certinhu, só achei o menu d opcoes meio confuso no comeco\",\n",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 0.01,
+                        "negative": 0.99
+                    },
+                    "offset": 662,
+                    "length": 64,
+                    "text": "  \"o atedente foi grossero e nem tentou entende o que eu falei. ",
+                    "targets": [
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.02,
+                                "negative": 0.98
+                            },
+                            "offset": 674,
+                            "length": 8,
+                            "text": "atedente",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/12/assessments/0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.02,
+                                "negative": 0.98
+                            },
+                            "offset": 687,
+                            "length": 8,
+                            "text": "grossero",
+                            "isNegated": false
+                        }
+                    ]
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0.01,
+                        "neutral": 0.01,
+                        "negative": 0.98
+                    },
+                    "offset": 726,
+                    "length": 23,
+                    "text": "experiencia horrivel\",\n",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 1,
+                        "neutral": 0,
+                        "negative": 0
+                    },
+                    "offset": 749,
+                    "length": 44,
+                    "text": "  \"melhor atendimento q já tive, serio msm. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 0.93,
+                        "neutral": 0.07,
+                        "negative": 0
+                    },
+                    "offset": 793,
+                    "length": 36,
+                    "text": "resolveu e ainda me deu umas dicas. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.03,
+                        "neutral": 0.94,
+                        "negative": 0.03
+                    },
+                    "offset": 829,
+                    "length": 13,
+                    "text": "valeuzão!\" ] ",
+                    "targets": [],
+                    "assessments": []
+                }
+            ],
+            "warnings": []
+        }
+    ],
+    "errors": [],
+    "modelVersion": "2025-01-01"
+}
